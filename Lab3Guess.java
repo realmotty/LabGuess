@@ -37,12 +37,12 @@ for (int i = 0; i < 100; i++) {
         }
         */
         // inset the game title and the guess stuff herey
-
+        System.out.println("I'm thinking of a number between 1 and 100 ... ");
         
         num = (int)(Math.random() * range) + min;
         System.out.println(num);
     while (game) {
-            
+            System.out.print("What is your guess:");
             guess = Input.nextInt();
         if (guess == num) 
             {
