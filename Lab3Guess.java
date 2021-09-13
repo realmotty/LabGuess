@@ -25,22 +25,30 @@ public class Lab3Guess {
      int max = 100;
      int min = 1;
      int range = max - min + 1;
+     boolean game = true;
   
 //GENERATES RANDOM NUMBER BETWEEN 1 AND 100
-    for (int i = 0; i < 100; i++) {
+/*   
+for (int i = 0; i < 100; i++) {
         num = (int)(Math.random() * range) + min;
             
             System.out.println("I'm thinking of a number between 1 and 100 ...\n");
             System.out.println("Please guess a number; ");
+        }
+        */
+        // inset the game title and the guess stuff herey
+        
+        
+        num = (int)(Math.random() * range) + min;
+        System.out.println(num);
+    while (game) {
+            
             guess = Input.nextInt();
-        }        
-
-    while (true) {
-
         if (guess == num) 
             {
                 System.out.println("Congratulations! You guessed the number in "+tries+" guess(es)!");
                 System.exit(1);
+                game = false;
             } 
         else if (guess > num)
         { 
