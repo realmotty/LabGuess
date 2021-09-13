@@ -37,7 +37,7 @@ for (int i = 0; i < 100; i++) {
         }
         */
         // inset the game title and the guess stuff herey
-        
+
         
         num = (int)(Math.random() * range) + min;
         System.out.println(num);
@@ -53,12 +53,12 @@ for (int i = 0; i < 100; i++) {
         else if (guess > num)
         { 
                 System.out.println(" "+guess+" is too high.\n");
-                guess = Input.nextInt();
+                //guess = Input.nextInt();
         } 
             else if (guess < num) 
             { 
                 System.out.println(" "+guess+" is too low.\n");
-                guess = Input.nextInt();
+                //guess = Input.nextInt();
         }	 
         tries+=1; 
         
