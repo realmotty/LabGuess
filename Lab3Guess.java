@@ -40,10 +40,12 @@ for (int i = 0; i < 100; i++) {
         System.out.println("I'm thinking of a number between 1 and 100 ... ");
         
         num = (int)(Math.random() * range) + min;
+        //for testing
         System.out.println(num);
     while (game) {
-            System.out.print("What is your guess:");
-            guess = Input.nextInt();
+        tries+=1; 
+        System.out.print("What is your guess:");
+        guess = Input.nextInt();
         if (guess == num) 
             {
                 System.out.println("Congratulations! You guessed the number in "+tries+" guess(es)!");
@@ -60,7 +62,6 @@ for (int i = 0; i < 100; i++) {
                 System.out.println(" "+guess+" is too low.\n");
                 //guess = Input.nextInt();
         }	 
-        tries+=1; 
         
     }
  //-------------------END CODE---------------------//   
