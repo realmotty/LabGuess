@@ -16,3 +16,8 @@ Please guess a number:30
 30 is too high.
 Please guess a number:27
 Congratulations! You guessed the number in 4 guess(es)!
+# Contact
+If you have any questions about this code feel free to contact me by any of the following listed below:                                                                             
+Email: mcastleberry1@stu.jsu.edu                                                                                                                                                   
+Twitter: Mottybiggy                                                                                                                                                                 
+Discord: M o t t y#8353
